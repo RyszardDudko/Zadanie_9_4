@@ -1,7 +1,7 @@
 function drawTree(height) {
-	for ( var i = 0 ; i < (height) ; i++) {
+	for ( var i = 0 ; i < height ; i++) {
 		var star = "";
-		for ( var j = -1 ; j < (height) ; j++) {
+		for ( var j = -1 ; j < height ; j++) {
 			if (j < i) {
 				star += '*';
 			} else {
@@ -10,6 +10,6 @@ function drawTree(height) {
 		}
 		console.log(star)
 	}
-};
+}
 
 drawTree(4)
